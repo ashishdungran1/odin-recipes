@@ -1,18 +1,43 @@
-body {
+* {
     font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
     background-color: #dbd8e3;
-    color: #5c5470;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 30px;
+    border: 2px solid #2a2438;
 }
 
 h1 {
     color: #2a2438;
+    text-align: center;
+    margin: 0;
 }
 
 h2 {
     color: #352f44;
 }
 
+p,
+li {
+    color: #5c5470;
+}
+
 img {
-    width: 500px;
+    max-width: 500px;
     height: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+a {
+    display: block;
+    text-align: center;
 }

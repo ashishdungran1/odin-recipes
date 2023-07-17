@@ -1,0 +1,27 @@
+* {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+
+.recipe-card {
+    background-color: #dbd8e3;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid #2a2438;
+}
+
+.recipe-content {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+}
+
+h1 {
+    color: #2a2438;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
